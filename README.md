@@ -1,1 +1,1 @@
-# registration-form-fcc is a project fron Freecodecamp
+# registration-form-fcc is a project from Freecodecamp
