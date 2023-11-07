@@ -26,28 +26,32 @@
             </label>
           </fieldset>
           <fieldset>
-            <label>
+            <label for="profile-picture">
               Upload a profile picture:
-              <input type="file">
-            </label>
-          </fieldset>
-            <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required />
-              I accept the <a href="https://www.freecodecamp.org/news/terms-of-service" target="_blank">terms and conditions</a> 
-            </label>
-            <label>
+              <input type="file" id="profile-picture">
+            </label>            
+            <label for="age">
               Input your age (years):
-              <input type="number" min="13" max="120">
+              <input type="number" min="13" max="120" id="age">
             </label>
-            <label>
+            <label for="referrer">
               How did you hear about us?
-              <select>
+              <select id="referrer">
                 <option value="">(select one)</option>
                 <option value="1">freeCodeCamp News</option>
                 <option value="2">freeCodeCamp YouTube Channel</option>
                 <option value="3">freeCodeCamp Forum</option>
                <option value="4">Other</option>
               </select>
-            </label>            
+            </label>
+            <label for="bio">
+              Provide a bio:
+              <textarea id="bio" rows="3" cols="30"></textarea>
+            </label>
+          </fieldset>
+          <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required />
+            I accept the <a href="https://www.freecodecamp.org/news/terms-of-service" target="_blank">terms and conditions</a> 
+          </label>                     
           <input type="submit" value="Submit" />
         </form>
     </body>
