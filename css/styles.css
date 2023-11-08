@@ -19,6 +19,11 @@ body {
     max-width: 500px;
     width: 60vw;
   }
+
+  fieldset{
+    border: 0;
+    padding: 2rem 0 2rem 0;
+  }
   
   label {
     display: block;
