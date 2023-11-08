@@ -12,6 +12,13 @@ body {
     margin: 1em auto;
     text-align: center;
   }
+
+  form {
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
+    width: 60vw;
+  }
   
   label {
     display: block;
