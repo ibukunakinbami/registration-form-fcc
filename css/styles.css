@@ -18,6 +18,7 @@ body {
     min-width: 300px;
     max-width: 500px;
     width: 60vw;
+    padding-bottom: 2em;
   }
 
   fieldset{
@@ -55,4 +56,19 @@ body {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
+  }
+
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+ 
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
   }
